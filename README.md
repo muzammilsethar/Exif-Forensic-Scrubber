@@ -1,22 +1,16 @@
-🛡️ MetaShield-Purge
-Digital Forensics & OSINT Prevention Tool
+# 🛡️ MetaShield-Purge
+**Digital Forensics & OSINT Prevention Tool**
 
-🚀 Usage
-1. Clone the repo: `git clone https://github.com/muzammilsethar/Exif-Forensic-Scrubber.git`
-2. Run the script: `python scrubber.py`
+### 📌 Overview
+This tool is designed to identify and strip sensitive EXIF metadata (GPS, Device IDs, Timestamps) from images to prevent OSINT leaks.
 
-📌 Overview
-Images contain hidden metadata (EXIF) that can leak GPS coordinates, device serial numbers, and software versions. This tool is designed for security professionals to sanitize images before public disclosure.
+### 🚀 Features
+- Full Metadata Erasure (EXIF, IPTC, XMP)
+- Forensic-level cleaning
+- Lightweight Python automation
 
-🚀 Features
-Full Metadata Erasure: Removes all EXIF, IPTC, and XMP tags.
-
-Forensic Clean: Ensures no traces of the original device remain.
-
-Automated Workflow: Built for quick sanitization in SOC environments.
-
-🛠️ Lab Setup
-Language: Python 3.x
-
-Core Engine: ExifTool by Phil Harvey
+### 🛠️ Setup
+1. Install ExifTool on your system.
+2. Clone this repo: `git clone https://github.com/muzammilsethar/Exif-Forensic-Scrubber.git`
+3. Run: `python metadata_scrubber.py`
 
